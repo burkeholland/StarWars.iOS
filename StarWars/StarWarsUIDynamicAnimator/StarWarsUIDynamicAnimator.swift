@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objc(StarWarsUIDynamicAnimator)
 public class StarWarsUIDynamicAnimator: NSObject, UIViewControllerAnimatedTransitioning {
 
     public var duration: NSTimeInterval = 2

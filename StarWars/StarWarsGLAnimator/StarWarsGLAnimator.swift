@@ -9,6 +9,7 @@
 import UIKit
 import GLKit
 
+@objc(StarWarsGLAnimator)
 public class StarWarsGLAnimator: NSObject, UIViewControllerAnimatedTransitioning {
     
     public var duration: NSTimeInterval = 2
